@@ -1,4 +1,4 @@
-# Etapa 3 - AC2
+# Etapa 3 
 
 ## Grafo de Fluxo
 
