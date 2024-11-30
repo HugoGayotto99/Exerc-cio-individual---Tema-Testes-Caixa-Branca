@@ -35,5 +35,11 @@ M=8−8+2=2
 Complexidade Ciclomática: 2
 
 ## Caminhos Básicos Identificados
-1. (1) → (2) → (3) → (4) → (5) → (6) → (7) → (8) → (9) → (12)
-2. (1) → (2) → (3) → (4) → (5) → (6) → (7) → (12)
+Com base no grafo, os caminhos básicos identificados são:
+
+Caminho 1 (Login válido):
+
+1 → 2 → 3 → 4 → 5 → 6 (true) → 7 → 8
+Caminho 2 (Login inválido):
+
+1 → 2 → 3 → 4 → 5 → 6 (false) → 8
