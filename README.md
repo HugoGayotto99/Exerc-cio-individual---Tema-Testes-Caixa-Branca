@@ -1,9 +1,14 @@
-Nome do driver: Linha 10 tem com.mysql.Driver.Manager, mas deve ser com.mysql.cj.jdbc.Driver.
+# Etapa 3 - AC2
 
-URL de conexão: Embora a URL esteja correta, ela pode precisar de ajustes dependendo da configuração do MySQL.
+## Grafo de Fluxo
+(Insira aqui uma imagem do grafo desenhado ou uma descrição textual)
 
-Tratamento de exceções: Adicionar e.printStackTrace() dentro dos blocos catch para exibir os erros.
+## Complexidade Ciclomática
+**Fórmula utilizada:**  
+V(G) = D + 1  
+**Número de decisões (D):** 1  
+**Complexidade Ciclomática:** 2
 
-SQL Injection: O uso de PreparedStatement é recomendado para evitar SQL Injection em vez de concatenar strings diretamente na instrução SQL.
-
-Fechamento da conexão: Adicionar um bloco finally para garantir que a conexão seja fechada, evitando vazamentos de recursos.
+## Caminhos Básicos Identificados
+1. (1) → (2) → (3) → (4) → (5) → (6) → (7) → (8) → (9) → (12)
+2. (1) → (2) → (3) → (4) → (5) → (6) → (7) → (12)
